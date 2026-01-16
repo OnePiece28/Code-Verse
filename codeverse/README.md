@@ -1,5 +1,3 @@
----
-
 ## 🧱 Tech Stack
 
 - **Frontend:** React + Vite
@@ -7,6 +5,5 @@
 - **Linting:** ESLint
 - **Deployment:** Vercel
 
----
-
 ## 📁 Project Structure
+
