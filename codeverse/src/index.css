@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* background-color: #090a19; */
+body{
+  background-color: #060711;
+  color:white;
+}
+.scrollable-container {
+  /* Hide horizontal scrollbar */
+  overflow-x: hidden;
+  /* Optional: ensure content does not overflow horizontally */
+  white-space: nowrap;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.slide-in-message {
+  animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.backdrop-blur-xl {
+  backdrop-filter: blur(24px);
+}
+
+.shadow-blue-500\/25 {
+  box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.25);
+}
+
+.hover\:scale-\[1\.02\]:hover {
+  transform: scale(1.02);
+}
