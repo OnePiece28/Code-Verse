@@ -1,8 +1,13 @@
-## 🧱 Tech Stack
+## ⚙️ Tech Stack
 
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS
-- **Deployment:** Vercel
+| Category        | Technology              |
+|-----------------|-------------------------|
+| Frontend        | React, Tailwind CSS     |
+| Backend         | Node.js, Express.js     |
+| Database        | MongoDB                 |
+| Authentication | JWT                     |
+| Deployment      | Vercel / Render         |
+
 
 ## 📁 Project Structure
 
